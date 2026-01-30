@@ -60,17 +60,17 @@ This project uses **Llama 3**, which runs inside Ollama. You must install this f
     2.  Install and run the application once to complete setup.
     3.  Open your terminal and run:
         ```bash
-        ollama pull llama3
+        ollama pull qwen2.5:3b
         ```
 * **Windows:**
     1.  Download the Windows Preview from [ollama.com](https://ollama.com/download).
     2.  Run the installer.
     3.  Open PowerShell or Command Prompt and run:
         ```bash
-        ollama pull llama3
+        ollama pull qwen2.5:3b
         ```
 
-> **Verification:** Run `ollama run llama3` in your terminal. If you can chat with the AI, you are ready. Type `/bye` to exit.
+> **Verification:** Run `ollama run qwen2.5:3b` in your terminal. If you can chat with the AI, you are ready. Type `/bye` to exit.
 
 ---
 
