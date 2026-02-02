@@ -1,0 +1,38 @@
+# --- Python/Flask Specific ---
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+auth_venv/
+
+# Flask instance folder (contains local configs/databases)
+instance/
+
+# Environment variables (DO NOT COMMIT SECRETS)
+.env
+.flaskenv
+
+# --- Database ---
+# If you use SQLite for local testing
+*.sqlite3
+*.db
+
+# --- Logs ---
+*.log
+logs/
+
+# --- Unit Tests ---
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- IDE/OS ---
+.vscode/
+.idea/
+.DS_Store
